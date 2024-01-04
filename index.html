@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body id="conte">
+    <div id="titulo">
+        <h1>Bem-Vindo ao Jogo Da Velha mais Paia de Todos</h1>
+        <p>Qual ira começar? <button onclick="escox()" id="escox" class="esc">X</button> <button onclick="escoo()" id="escoo" class="esc">O</button></p>
+    </div>
+    <section id="cont">
+        <main>
+            <button class="bt" onclick="zerozero()"><img id="b" src""></button>
+            <button class="bt" onclick="zeroone()"><img id="b" src""></button>
+            <button class="B" onclick="zerotwo()"><img id="b" src""></button>
+        </main>
+        <main>
+            <button class="bt" onclick="onezero()"><img id="b" src""></button>
+            <button class="bt" onclick="oneone()"><img id="b" src""></button>
+            <button class="B" onclick="onetwo()"><img id="b" src""></button>
+        </main>
+        <main>
+            <button class="bt" onclick="twozero()"><img id="b" src""></button>
+            <button class="bt" onclick="twoone()"><img id="b" src""></button>
+            <button class="B" onclick="twotwo()"><img id="b" src""></button>
+        </main>
+        <button id="buttonReiniciar" onclick="RegarregarPagina()">Reiniciar</button>
+    </section>
+    <section id="SectionResultado">
+        <h1 id="messagemResultado"></h1>
+    </section>
+</body>
+</html>
