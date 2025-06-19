@@ -108,7 +108,7 @@ function RegarregarPagina(){
   window.location.reload();
 }
 function VerificarJogo(m){
-  if(saberSeDeuVelha<8){
+  if(saberSeDeuVelha<9){
     if ((m[0][0] == 'o' && m[0][1] == 'o' && m[0][2] == 'o') 
     || (m[1][0] == 'o' && m[1][1] == 'o' && m[1][2] == 'o')
     || (m[2][0] == 'o' && m[2][1] == 'o' && m[2][2] == 'o')
